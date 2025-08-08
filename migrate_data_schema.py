@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
+# migrate_data_schema.py
+#
 ################################################################################
 #                                                                              #
 #              SCRIPT DE MIGRACIÓN DE ESQUEMAS EN FIRESTORE                    #

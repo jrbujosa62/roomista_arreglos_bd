@@ -1,3 +1,8 @@
+# Elimina los usuario caseros de  Algolia
+# Este script elimina todos los usuarios con el rol 'casero' del índice de Algolia  "users".    
+# Requiere las credenciales de Algolia en el archivo config.py
+# Uso:
+# python cleanup_algolia_caseros.py           
 import asyncio
 import sys
 from algoliasearch.search.client import SearchClient
