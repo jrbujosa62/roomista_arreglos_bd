@@ -75,16 +75,32 @@ except ImportError:
 CONTENT_CONVERSION_MAP = {
     "users": {
         "flatmate_traits": {
-            "Independencia": "independence",
-            "Respeto": "respect",
+            "Independence": "independence",
+            "Respect": "respect",
             "Confianza": "trustworthiness",
             "Limpieza": "cleanliness",
-            "Sociabilidad": "sociability"
+            "Sociability": "sociability"
         },
         "gender": {
-            "Hombre": "male",
-            "Mujer": "female",
-            "Otro": "other"
+            "Male": "male",
+            "Female": "female",
+            "Other": "other"
+        },
+        "nationality": {
+            "Español": "es",
+        },
+        "profession": {
+            "Administration": "public_servant",
+            "Technology/Software": "technology_software",
+            "Other": "other",
+            "Hospitality/Tourism":"hospitality_tourism",
+            "Engineering": "engineering",
+            "Education": "education_research",
+            "Finance/Accounting": "business_finance",
+            "Marketing/Sales": "marketing_sales",
+            "Healthcare": "healthcare_medical",
+            "Arts/Design": "arts_entertainment",
+            "Student": "student"
         },
         "profile_status": {
             "iniciado": "started",
@@ -93,28 +109,28 @@ CONTENT_CONVERSION_MAP = {
             "fallido": "failed"
         },
         "property_strengths_searched": {
-            "Encanto/Estilo": "charm_style",
-            "Insonorización": "sound_proofing",
-            "Luminosidad": "brightness",
-            "Vistas": "views",
-            "Ambiente comunitario": "community_atmosphere",
-            "Tamaño": "size"
+            "Charm/Style": "charm_style",
+            "Soundproofing": "sound_proofing",
+            "Brightness": "brightness",
+            "Views": "views",
+            "Community Atmosphere": "community_atmosphere",
+            "Size": "size"
         },
         "rental_type": {
-            "propiedadEntera": "entire_property",
-            "habitacion": "room"
+            "entireProperty": "entire_property",
+            "Room": "room"
         },
         "role": {
             "inquilino": "tenant",
             "casero": "landlord"
         },
-        "strengths_roommate": {
-            "Flexibilidad y adaptación": "flexibility_and_adaptation",
-            "Comunicación abierta": "open_communication",
-            "Aporto buen ambiente": "i_bring_a_good_atmosphere",
-            "Respetuoso con el espacio": "respectful_of_space",
-            "Responsabilidad doméstica": "domestic_responsibility",
-            "Organización y limpieza": "organization_and_cleanliness"
+        "roommate_strengths": {
+            "Flexibility and adaptation": "flexibility_and_adaptation",
+            "Open communication": "open_communication",
+            "I bring a good atmosphere": "i_bring_a_good_atmosphere",
+            "Respectful of space": "respectful_of_space",
+            "Domestic responsibility": "domestic_responsibility",
+            "Organization and cleanliness": "organization_and_cleanliness"
         },
         "tenant_strengths": {
             "Contractual Responsibility": "contractual_responsibility",

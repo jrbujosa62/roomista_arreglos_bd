@@ -96,7 +96,7 @@ def migrate_listings(db: firestore.client):
     docs_processed = 0
 
     fields_to_delete = [
-        'description_es', 'propertyStrengths_es', 'tenantStrengthsSearched_es', 'title_es','sourceLanguage'
+        'available_from_unix','available_until_unix','created_at_unix','updated_at_unix'
     ]
     fields_to_rename = {
         'availableUntil_unix': 'available_until_unix',
@@ -158,8 +158,7 @@ def migrate_users(db: firestore.client):
     docs_processed = 0
 
     fields_to_delete = [
-        'bio_es', 'flatmateTraitsEs', 'gender_es', 'profession_es',
-        'propertyStrengthsSearched_es', 'strengthsRoommate_es', 'tenantStrengths_es','sourceLanguage',
+        'desired_move_in_date_unix','desired_move_out_date_unix','created_at_unix','updated_at_unix'
     ]
     
     fields_to_rename = {
